@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Desconsidera o calculo da dimensão de um elemento somando bordas e margem com altura e largura usando border-box */
+/* Reseta paddin e margin global*/
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Adiciona fonte, muda cor do fundo, cor das letras e a altura do espaçamento entre as linhas*/
+body {
+    font-family: 'Open-sans', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Remove os bullet-points da lista */
+ul {
+    list-style: none;
+}
+
+/* Muda a cor e remove sublinhado do link nesse caso */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Muda o "peso" da fonte e altera a altura do espaçamento*/
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+/* Adiciona 10px de margem no topo e 0 embaixo dos parágrafos  */
+p {
+    margin: 10px 0;
+}
+
+/* Faz com que a imagem ocupe 100% do espaço do container */
+img {
+    width: 100%;
+}
+
+/* NAVBAR */
+/* Alinha os itens na mesma linha, alinha o elemento dos itens verticalmente, adiciona espaço entre eles, muda cor do fundo e das letras, adiciona transparência,  */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    opacity: 0.8;
+    width: 100%;
+    /* height: 70px; */
+    /* position: fixed; */
+    /* top: 0px; */
+    /* padding: 0 30px; */
+}
+
+/* .navbar a {
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: #28a745 2px solid;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar .logo {
+    font-weight: 400;
+} */
