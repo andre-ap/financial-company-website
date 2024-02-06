@@ -11,7 +11,7 @@
 
 /* Adiciona fonte, muda cor do fundo, cor das letras e a altura do espaçamento entre as linhas*/
 body {
-    font-family: 'Open-sans', sans-serif;
+    font-family: 'Open-sans' , sans-serif;
     background-color: #fff;
     color: #333;
     line-height: 1.6;
@@ -164,4 +164,85 @@ img {
 
 .callback-form label {
     display: block;
+    margin-bottom: 5px;
+}
+
+.callback-form .form-control {
+    margin-bottom: 15px;
+}
+
+.callback-form input {
+    width: 100%;
+    padding: 4px;
+    height: 40px;
+    border: #f5f5f5 1px solid;
+    border-radius: 5px;
+}
+
+.callback-form input:focus {
+    outline-color: #28a745;
+}
+
+.callback-form .btn {
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #28a745;
+}
+
+.footer .social * {
+    margin-right: 30px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Mobile */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        height: 120px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px 10px;
+        margin: 0 3px;
+    }
+
+    .flex-items {
+        flex-direction: column;
+    }
+
+    .flex-columns .column, .flex-grid .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .column img {
+        flex: 100%;
+        flex-direction: column;
+    }
+
+    .team img {
+        width: 80%;
+    }
 }
